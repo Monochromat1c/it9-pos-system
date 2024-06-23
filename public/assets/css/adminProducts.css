@@ -1,0 +1,198 @@
+* {
+    /* outline: 1px dotted red; */
+}
+
+/* MIXED */
+
+/* SEARCH BOX */
+
+.search-bar,
+.pagination-container {
+    margin-top: 1rem;
+}
+
+.search-bar {
+    background-color: white;
+    border-radius: 3rem;
+    position: relative;
+    margin: auto 0;
+    width: 100%;
+}
+
+.search-bar-input {
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    width: 100%;
+}
+
+.search-button {
+    background-color: white;
+    outline: none;
+    border: none;
+    border-left: 1px solid #6d8db8;
+    padding: 1rem 2rem 1rem 1.6rem;
+    border-radius: 0 3rem 3rem 0;
+    right: 0;
+    position: absolute;
+}
+
+/* PAGINATION */
+
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.pagination-text,
+.pagination-link {
+    margin-top: 1.5rem;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-container nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item,
+.page-link {
+    font-size: 1.7rem;
+}
+
+/* TABLE */
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #374558;
+}
+
+.products-table > * {
+    color: white;
+}
+
+.products-table {
+    margin-top: 1.5rem;
+    background-color: #374558;
+    /* padding: 0 3rem 0 3rem; */
+    max-height: 60dvh;
+    overflow-y: scroll;
+}
+
+.table-navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+table {
+    min-width: 100%;
+    border-collapse: collapse;
+}
+
+table thead th {
+    padding: 2rem;
+    text-align: left;
+}
+
+table tbody tr td {
+    padding: 1.5rem 2rem;
+}
+
+.table-row:nth-child(odd) {
+    background-color: #58708f;
+}
+
+.table-row:nth-child(even) {
+    background-color: #3c4e66;
+}
+
+.last-row {
+}
+
+.first-td-last-row {
+}
+
+.last-td-last-row {
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* User */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.profile-container {
+    background-color: #334153;
+    padding: 2rem;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* User */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.users-table > * {
+    color: white;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* View User */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.view-user > * {
+    color: white;
+}
+
+.view-user {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-user-card {
+    padding: 2rem;
+    border-radius: 3rem;
+    box-shadow: -1px 5px 10px #94b7cc;
+    background-color: #334153;
+    min-width: 30dvw;
+    @media (max-width: 1100px) {
+        min-width: 50dvw;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Edit User */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.edit-user > * {
+    color: white;
+}
+
+.edit-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-user-container{
+    /* max-width: 333px; */
+    margin-top: 3rem;
+    background-color: #334153;
+    padding: 2rem;
+    border-radius: 3rem;
+    box-shadow: -1px 5px 10px #94b7cc;
+    min-width: 40dvw;
+    @media (max-width: 1100px) {
+        min-width: 50dvw;
+    }
+}
+
+.form-control {
+    min-width: 100%;
+    padding: .5rem;
+    border-radius: 1.5rem;
+}
